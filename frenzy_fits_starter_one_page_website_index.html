@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FrenzyFits — Official</title>
+  <meta name="description" content="FrenzyFits — Premium streetwear & casuals. New drops, fast delivery." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--accent:#ff3d00;--bg:#0f1724;--card:#0b1220;--muted:#9aa4b2}
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:Inter,system-ui,Segoe UI,Roboto,"Helvetica Neue",Arial;color:#e6eef6;background:linear-gradient(180deg,#071026 0%,#07101a 100%)}
+    a{color:inherit;text-decoration:none}
+    header{display:flex;justify-content:space-between;align-items:center;padding:20px 28px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:44px;height:44px;border-radius:10px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:white;font-weight:700}
+    .nav{display:flex;gap:14px;align-items:center}
+    .btn{background:var(--accent);color:#fff;padding:10px 14px;border-radius:10px;font-weight:600}
+    .container{max-width:1100px;margin:0 auto;padding:30px}
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;padding:36px;background:rgba(255,255,255,0.02);border-radius:14px}
+    .eyebrow{color:var(--accent);font-weight:700}
+    h1{margin:8px 0 12px;font-size:34px}
+    p.lead{color:var(--muted);line-height:1.5}
+    .hero-cta{display:flex;gap:12px;margin-top:18px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:18px;border-radius:12px}
+    .product{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:26px}
+    .product .item{background:var(--card);padding:12px;border-radius:10px;text-align:center}
+    .item img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+    .item h4{margin:10px 0 6px;font-size:15px}
+    .price{color:var(--accent);font-weight:700}
+    footer{padding:28px;text-align:center;color:var(--muted)}
+    @media(max-width:880px){.hero{grid-template-columns:1fr;}.product{grid-template-columns:repeat(2,1fr)}.nav{display:none}}
+    @media(max-width:460px){.product{grid-template-columns:1fr}.hero-cta{flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header class="container">
+    <div class="brand">
+      <div class="logo">FF</div>
+      <div>
+        <div style="font-weight:700">FrenzyFits</div>
+        <div style="font-size:12px;color:var(--muted)">Streetwear • Casual • Essentials</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="#products">Collections</a>
+      <a href="#about">About</a>
+      <a href="#contact" class="btn">Contact / Order</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="eyebrow">New Drop</div>
+        <h1>Wear your confidence — FrenzyFits</h1>
+        <p class="lead">Modern streetwear built for everyday life. Limited drops, premium feel, budget-friendly. Follow our Instagram for live drops and order via WhatsApp.</p>
+        <div class="hero-cta">
+          <a href="https://instagram.com/your_instagram" class="btn" target="_blank">Follow on Instagram</a>
+          <a href="https://wa.me/923001234567" class="card">Order on WhatsApp</a>
+        </div>
+
+        <div id="about" style="margin-top:22px;color:var(--muted)">
+          <strong>Fast delivery:</strong> Pakistan-wide • <strong>Custom orders:</strong> Available
+        </div>
+      </div>
+
+      <aside class="card">
+        <div style="font-weight:700;margin-bottom:8px">Featured</div>
+        <img src="https://via.placeholder.com/380x300.png?text=FrenzyFits+Hero" alt="hero image" style="width:100%;border-radius:10px;object-fit:cover">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:12px">
+          <div>
+            <div style="font-weight:700">Urban Oversize Tee</div>
+            <div style="font-size:13px;color:var(--muted)">Soft cotton blend</div>
+          </div>
+          <div style="color:var(--accent);font-weight:800">Rs.2,499</div>
+        </div>
+      </aside>
+    </section>
+
+    <section id="products" style="margin-top:28px">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h3 style="margin:0">Best sellers</h3>
+        <a href="#" style="font-size:14px;color:var(--muted)">View all</a>
+      </div>
+
+      <div class="product">
+        <div class="item">
+          <img src="https://via.placeholder.com/400x300.png?text=Product+1" alt="product1">
+          <h4>Oversize Hoodie</h4>
+          <div class="price">Rs.3,199</div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/400x300.png?text=Product+2" alt="product2">
+          <h4>Graphic Tee</h4>
+          <div class="price">Rs.1,799</div>
+        </div>
+        <div class="item">
+          <img src="https://via.placeholder.com/400x300.png?text=Product+3" alt="product3">
+          <h4>Track Pants</h4>
+          <div class="price">Rs.2,299</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" style="margin-top:34px">
+      <div style="display:grid;grid-template-columns:1fr 320px;gap:18px;align-items:start">
+        <div class="card">
+          <h4 style="margin-top:0">How to order</h4>
+          <ol style="color:var(--muted)">
+            <li>Message us on WhatsApp with product name & size.</li>
+            <li>Confirm shipping address & pay via bank / Easypaisa / Cash on Delivery.</li>
+            <li>Your order ships within 2-4 business days.</li>
+          </ol>
+          <p style="color:var(--muted);font-size:13px;margin-top:10px">Need custom sizes or designs? DM on Instagram.</p>
+        </div>
+
+        <div class="card">
+          <h4 style="margin-top:0">Contact</h4>
+          <p style="margin:6px 0;color:var(--muted)"><strong>Instagram:</strong> <a href="https://instagram.com/your_instagram" target="_blank">@your_instagram</a></p>
+          <p style="margin:6px 0;color:var(--muted)"><strong>WhatsApp:</strong> <a href="https://wa.me/923001234567" target="_blank">+92 300 1234567</a></p>
+          <p style="font-size:13px;color:var(--muted);margin-top:8px">Replace links & phone number in the HTML before publishing.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    &copy; <span id="year"></span> FrenzyFits — All rights reserved • Made with ♥
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
